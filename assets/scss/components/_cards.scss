@@ -9,6 +9,15 @@
   background-color: $card-bg-color;
 }
 
+.card-fixed {
+  transition: box-shadow .25s;
+  padding: $box-padding;
+  margin: 6px 0 6px 0;
+  border-radius: 2px;
+  @extend .z-depth-1;
+  background-color: $card-bg-color;
+}
+
 .card-box {
   transition: box-shadow .25s;
   padding: $box-padding;
