@@ -137,3 +137,15 @@ th{
 }
 
 img[alt=Innovation] { width: 600px; }
+
+.add-height {
+  height: 100px;
+}
+
+.more-button {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  right: 0;
+  bottom: 15px;
+  z-index: 2;
+}
